@@ -1,0 +1,136 @@
+/* General container styling */
+.container {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow-x: auto;
+    position: relative;
+  }
+  /*Styling the header */
+  h1{
+    text-align: center;
+  }
+
+  /*sorting and searching*/
+  .search-sort-controls {
+    position: absolute;
+    top: 4rem;
+    right: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    padding: 5px;
+    margin-right: 10px;
+  }
+  
+  .sort-options {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .no-data {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+  }
+  
+  /* Styling the table */
+  table {
+    width: 100%;
+    border-collapse: collapse; /* Ensure borders are collapsed for a cleaner look */
+    font-family: 'Arial', sans-serif;
+    border: 2px solid #007bff; /* Add border to the table */
+  }
+  
+  /* Table headers */
+  thead th {
+    background-color: #007bff;
+    color: white;
+    text-align: left;
+    padding: 12px;
+    font-weight: bold;
+    border: 1px solid #ddd; /* Add border to header cells */
+  }
+  
+  /* Table rows */
+  tbody td {
+    padding: 12px;
+    border: 1px solid #ddd; /* Add border to each table cell */
+    vertical-align: top;
+  }
+  
+  /* Zebra stripe rows for clarity */
+  tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  /* Ensure address and company text is properly spaced */
+  td {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  td br {
+    line-height: 1.5;
+  }
+  
+  /* Styling links in table */
+  td a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Style links in the table */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Add hover effect on rows */
+  tbody tr:hover {
+    background-color: #f1f1f1;
+    cursor: pointer;
+  }
+
+  /* Container for pagination controls */
+  .pagination-controls {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between buttons */
+    margin-top: 20px; /* Top margin for spacing */
+  }
+  
+  /* Style for buttons */
+  button {
+    background-color: #007bff; 
+    color: white; 
+    border: none;
+    padding: 10px 20px; 
+    margin: 0 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+    border-radius: 5px;
+    transition: background-color 0.3s; 
+  }
+  
+  /* Style for disabled buttons */
+  button:disabled {
+    background-color: #c0c0c0; 
+    cursor: not-allowed; 
+  }
+  
+  /* Button hover effect */
+  button:hover:not(:disabled) {
+    background-color: #0056b3; 
+  }
+  
+  
