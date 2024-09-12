@@ -27,7 +27,7 @@ To run the project locally, follow these steps:
 1. **Clone the repository**:
 
     ```bash
-    git clone https://github.com/your-username/dynamic-table.git
+    git clone https://github.com/Roshan-86/Dynamic-table---Angular
     cd dynamic-table
     ```
 
